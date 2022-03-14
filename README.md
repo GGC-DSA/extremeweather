@@ -21,7 +21,6 @@ Hypothesis 3: Longer and wider tornados have been happening more and more in the
 
 Hypothesis 4: Evening time (hottest part of the day) are when the higher F-Scale tornados happen more frequently
 
-Hypothesis 5: Tornados are lasting longer and traveling farther distances
 
 ### Technologies 
 * Python programming language 
