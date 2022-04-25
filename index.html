@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Site</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">Project Website</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#description" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">OVERVIEW</a>
+        <a href="#visuals" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">VISUALS</a>
+        <a href="#results" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESULTS</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <p style="background-color:white; font-size:x-large;" class="w3-margin-top-3"> 
+              Team Members
+            </p>
+        <img src="59C6D68C-CC26-48F4-8CB5-9CC482997652_1_201_a.heic" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <p style="background-color:tomato;" class="w3-margin-top-3"> 
+              Samuel Dean 
+            </p>
+        <img src="Matt.jpeg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <p style="background-color:tomato;" class="w3-margin-top-3"> 
+              Matthew Bauer 
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-medium w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-medium w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">Samuel Dean & Matthew Bauer</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">LINKS</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">VISUALS</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">OVERVIEW</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">Data Science Capstone Project</p>
+                <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+             <h3 class="animate-charcter"> Tornados in America</h3>
+                  </div>
+                </div>
+              </div>
+            <h2>Are They Becoming More Dangerous?</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PROJECT DESCRIPTION</h2>
+            <p class="w3-margin-top-2"> 
+              For our Data Science and Analytics capstone project, we were assigned client Tom Coffin 
+              to provide us with a problem statement. Our goal was to find a dataset that represented 
+              a potential negative consequence from Global Warming.
+            </p>
+            <p class=""> 
+              With this in mind, our team found a dataset that has kept record of tornados that occured
+              in the United States from 1950 to 2015. This set includes details such as F-Scale, width, 
+              length, location, injuries, and fatalities. 
+            </p>
+            <p class=""> 
+              Our goal is to determine if tornados are occuring more frequently and if they are becoming
+              more dangerous and deadly.
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Exploring Our Questions</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">Our Hypotheses</h3>
+              <div class="">
+                <h4>Are the number of tornados happening each year increasing?</h4>
+                <p>Calculated total count of tornados per year from our data</p>
+                <img src="TornadoCountRegression.png" class="w3-border w3-border-sand" style="border-width: 3px !important;"/>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>With this we find there is a clear upward trend of total tornado count per year from 1950 to 2015.</li>
+                  <li>The red line is the line produced from a Linear Regression Algorithm used to find the best linear equation that follows the graph.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Are tornados getting longer and wider over the years?</h4>
+                <p> 3D Interactive Plot
+                  <iframe title="Embedded cell output" src="https://embed.deepnote.com/f64a4d1d-7706-4f19-8219-3e582eaf3017/79865baf-d5d2-41be-b335-bc54fb2ad48b/edda21e6-9ee1-47f0-bcec-29edb7ef11b5?height=601" height="601" width="600"/></iframe>
+                </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>This plot is the average of both length and width of tornados each year from 
+                    1950 to 2015. Both length and width have a high average but quickly decreases 
+                    until around 1980. Then the average of both starts to rise rapidly and continues 
+                    to do so until 2015. 
+                  </li>
+                  <li>Line graphs of average length and width but only from 1995 to 2015</li>
+                  <img src="Width.png" class="w3-border w3-border-sand" style="border-width: 3px !important;"/>
+                  <img src="Length.png" class="w3-border w3-border-sand" style="border-width: 3px !important;"/>
+                  <li>
+                    Both of these plots show a sharp increase within the 20 year period of 1995-2015. The average length and width of 
+                    tornados doubled by 2010 when compared to 1995. 
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Links</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p><a href="https://github.com/GGC-DSA/extremeweather">Project Github</a></p>
+              <p><a href="https://deepnote.com/workspace/samuelrdean-2c94-30498793-6cf7-4eb8-b3db-8af2a5bf7552/project/Capstone-Project-f64a4d1d-7706-4f19-8219-3e582eaf3017/%2FFinal%20Project%2FFinalCapstone.ipynb">Project Notebook</a> </p>
+              <p>LinkedIn:</p>
+              <p><a href="https://www.linkedin.com/in/samuel-r-dean/">Samuel Dean</a></p>
+              <p><a href="https://www.linkedin.com/in/matthewwbauer/">Matthew Bauer</a></p>
+              <p><a href="https://www.linkedin.com/in/tom-coffin/">Tom Coffin</a> (Project Client)</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2021 - Samuel Dean</p>
+           <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> 
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
