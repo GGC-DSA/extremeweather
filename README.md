@@ -13,9 +13,9 @@ We currently are using datasets that have tracked tornadoes over 50 years
 
 Our current Hypothesis are: 
 
-Hypothesis 1: The global warming and hotter temperatures is creating more higher F-Scale tornados and causing more destruction.
+Hypothesis 1: F-Scale 5 tornados are the deadliest 
 
-Hypothesis 2: Property loss damage/Fatalities will continues to rise due to more frequent tornados
+Hypothesis 2: Tornado count per year has risen since 1950 
 
 Hypothesis 3: Longer and wider tornados have been happening more and more in the last 20 years
 
@@ -27,5 +27,6 @@ Hypothesis 4: Evening time (hottest part of the day) are when the higher F-Scale
 * Jupyter Notebook for statistics and visualization 
 * Github
 * Jira
+* DeepNote for notebook collaboration 
 
 
