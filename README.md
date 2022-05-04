@@ -16,9 +16,9 @@
 
 * [Notebook](https://deepnote.com/@GGC-Capstone/Capstone-Project-f64a4d1d-7706-4f19-8219-3e582eaf3017)
 
-* [Final Report]()
+* [Final Report](https://piazza.com/redirect/s3?bucket=uploads&prefix=paste%2Fkyki1qwek123i9%2F2c35d6c628ae544fb804fc9adbcb347d48bf652e713aa4596e9b6860c3050480%2FCapstone_Final_Report.pdf)
 
-* [Screencast]()
+* [Screencast](https://youtu.be/blMMpMdMTU8)
 
 ### Technologies 
 * Python programming language 
