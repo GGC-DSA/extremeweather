@@ -31,7 +31,7 @@
         <p style="background-color:white; font-size:x-large;" class="w3-margin-top-3"> 
               Team Members
             </p>
-        <img src="59C6D68C-CC26-48F4-8CB5-9CC482997652_1_201_a.heic" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
         <p style="background-color:tomato;" class="w3-margin-top-3"> 
               Samuel Dean 
             </p>
@@ -49,10 +49,10 @@
         <div class="w3-container w3-padding-medium w3-border-bottom w3-hide-small">
           <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">Samuel Dean & Matthew Bauer</a>
           <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">LINKS</a>
-          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">VISUALS</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESULTS</a>
           <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">OVERVIEW</a>
         </div>
-        <div class="content-container w3-margin-top-2">
+        <div class="content-container w3-margin-top-1">
           <!--HOME SECTION-->
           <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
             <p style="font-style: italic; font-size:x-large;">Data Science Capstone Project</p>
@@ -68,31 +68,27 @@
           </div>
 
           <!--ABOUT SECTION-->
-          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+          <div id="about" class="w3-container w3-margin-top-10-percent w3-cursive w3-large">
             <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PROJECT DESCRIPTION</h2>
             <p class="w3-margin-top-2"> 
-              For our Data Science and Analytics capstone project, we were assigned client Tom Coffin 
-              to provide us with a problem statement. Our goal was to find a dataset that represented 
+              For our Data Science and Analytics capstone project, we worked with our client Tom Coffin 
+              who provided us with a problem statement. Our goal was to find a dataset that represented 
               a potential negative consequence from Global Warming.
             </p>
             <p class=""> 
               With this in mind, our team found a dataset that has kept record of tornados that occured
               in the United States from 1950 to 2015. This set includes details such as F-Scale, width, 
-              length, location, injuries, and fatalities. 
-            </p>
-            <p class=""> 
-              Our goal is to determine if tornados are occuring more frequently and if they are becoming
-              more dangerous and deadly.
+              length, location, injuries, and fatalities. The source of our dataset can be found
+              <a href = "https://www.kaggle.com/datasets/jtennis/spctornado"> here </a>.
             </p>
           </div>
 
           <!--RESUME-->
-          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Exploring Our Questions</h2>
+          <div id="resume" class="w3-container  w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Questions Explored</h2>
             <div class="w3-container w3-margin-top-2 w3-cursive">
 
               <!--EMPLOYMENT HISTORY SECTION-->
-              <h3 class="w3-border-amber">Our Hypotheses</h3>
               <div class="">
                 <h4>Are the number of tornados happening each year increasing?</h4>
                 <p>Calculated total count of tornados per year from our data</p>
@@ -114,15 +110,43 @@
                     to do so until 2015. 
                   </li>
                   <li>Line graphs of average length and width but only from 1995 to 2015</li>
-                  <img src="Width.png" class="w3-border w3-border-sand" style="border-width: 3px !important;"/>
-                  <img src="Length.png" class="w3-border w3-border-sand" style="border-width: 3px !important;"/>
+                  <div class="row">
+                    <div class="column">
+                      <img src="Width.png" alt="Width" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="Length.png" alt="Length" style="width:100%">
+                    </div>
+                  </div>
+                  
                   <li>
                     Both of these plots show a sharp increase within the 20 year period of 1995-2015. The average length and width of 
                     tornados doubled by 2010 when compared to 1995. 
                   </li>
+
+                  <h4>Tornados are Deadliest when F-Scale is 5 in the Last 20 Years</h4>
+                  <img src="Fatalities_FScale.png" alt="Fatalities" style="width:100%">
+                  <li>
+                    In this bar plot, we see that F-Scale 5 has clearly causes the most fatalities in 
+                    the last 20 years. The deaths caused by F-Scale 5 tornados have nearly doubles the 
+                    deaths of F-Scale 0-4 combined. 
+                  </li>
+                  <img src="Injuries_FScale.png" alt="Fatalities" style="width:100%">
+                    <li>
+                    In this bar plot, we see that F-Scale 4 tornados actually cause the most reported
+                    injuries. F-Scale 5 tornados are close behind it though which makes sense because
+                    of the reported fatalities found in the previous graph. 
+                  </li>
                 </ul>
               </div>
             </div>
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Conclusion</h2>
+            <li>
+              In conclusion, we find that tornado count has continued to rise throughout the last 65 years. 
+              Our results also showed that the average width and length of tornados in the last 20 years 
+              has risen tremendously, with a tornado of an F-Scale 5 causing the most fatalities and F-Scale
+              4 causing the most injuries. 
+            </li>
 
           <!--CONTACT SECTION-->
           <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
